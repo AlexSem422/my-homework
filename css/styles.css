@@ -1,16 +1,22 @@
 /* Основная политра
-Основной цвет текста-757575 
-Цвет заголовков-212121
-Цвет подписи-FFFFFF
+Основной цвет текста-#757575 
+Цвет заголовков-#212121
+Цвет подписи-#FFFFFF
 */
+:root {
+  --main-text-color: #757575;
+  --header-color: #212121;
+  --signature-color: #ffffff;
+  --animation-color: #2196f3;
+}
 
 body {
   margin: 0px;
   padding: 0px;
   background: #ffffff;
-  color: #757575;
+  color: var(--main-text-color);
 }
-
+/* логотип вначале сьраницы */
 .main-logo {
   font-family: Raleway;
   font-style: normal;
@@ -20,33 +26,26 @@ body {
   letter-spacing: 0.03em;
   color: black;
 }
-
+/* часть логотипа "Web" */
 span {
-  color: #2196f3;
+  color: var(--animation-color);
 }
-
+/* все ссылки */
 a {
   text-decoration: none;
-  color: #212121;
+  color: var(--header-color);
 }
-
+/* все списки */
 ul {
   list-style-type: none;
 }
-
-h1 {
-  color: #212121;
+/* стили для агаловков */
+.heading {
+  color: var(--header-color);
 }
-
-h2 {
-  color: #212121;
-}
-
-h3 {
-  color: #212121;
-}
+/* Логотип в конце страницы */
 .footer-logo {
-  color: white;
+  color: var(--signature-color);
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -55,86 +54,67 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
-.site-nav-link {
+/* основная навигация */
+.site-nav .link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--header-color);
 }
-
-.site-nav a:hover {
-  color: #2196f3;
+/* основная навигация при наведении */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--animation-color);
 }
-
-.link-contacts a {
+/*  навигация по контактам */
+.contacts-nav .link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-text-color);
 }
-
-.link-contacts a:hover {
-  color: #2196f3;
+/* навигация по контактам при наведении */
+.contacts-nav .link:hover,
+.contacts-nav .link:hover:focus {
+  color: var(--animation-color);
 }
+/* "кнопки" */
 
-.main-link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  color: white;
-  background: #2196f3;
+.button {
+  color: var(--signature-color);
+  background: var(--animation-color);
 }
-
+/* главный заголовок сайта */
 .hero {
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 42px;
-  color: white;
+  color: var(--signature-color);
   background: gray;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-
+/* абзацы в разделе что мы делаем */
 .what-doing-words {
-  color: #ffffff;
+  color: var(--signature-color);
   background: rgba(47, 48, 58, 0.8);
   margin: 0px;
   padding: 0px;
 }
-
-.logo-img {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  padding: auto;
-}
-
-.logo-block {
-  width: 170px;
-  height: 90px;
-}
+/* подвал сайта */
 
 .footer {
   background: #2f303a;
 }
-
-.address {
-  color: #ffffff;
-}
-
-.come-on {
-  color: #ffffff;
-}
-.join {
-  color: #ffffff;
+/* обращения */
+.appeals {
+  color: var(--signature-color);
 }
