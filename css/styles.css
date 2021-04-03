@@ -1,3 +1,16 @@
+/* Основная политра
+Основной цвет текста-757575 
+Цвет заголовков-212121
+Цвет подписи-FFFFFF
+*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff;
+  color: #757575;
+}
+
 .main-logo {
   font-family: Raleway;
   font-style: normal;
@@ -17,6 +30,21 @@ a {
   color: #212121;
 }
 
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  color: #212121;
+}
+
+h2 {
+  color: #212121;
+}
+
+h3 {
+  color: #212121;
+}
 .footer-logo {
   color: white;
   font-family: Raleway;
@@ -28,7 +56,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-.nav-list .nav-li {
+.site-nav-link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -38,6 +66,75 @@ a {
   color: #212121;
 }
 
-.nav-list .nav-li:hover a {
+.site-nav a:hover {
   color: #2196f3;
+}
+
+.link-contacts a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.link-contacts a:hover {
+  color: #2196f3;
+}
+
+.main-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+  background: #2196f3;
+}
+
+.hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 42px;
+  color: white;
+  background: gray;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.what-doing-words {
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo-img {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: auto;
+}
+
+.logo-block {
+  width: 170px;
+  height: 90px;
+}
+
+.footer {
+  background: #2f303a;
+}
+
+.address {
+  color: #ffffff;
+}
+
+.come-on {
+  color: #ffffff;
+}
+.join {
+  color: #ffffff;
 }
