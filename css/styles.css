@@ -1,3 +1,125 @@
+/* Основная политра
+Основной цвет текста-#757575 
+Цвет заголовков-#212121
+Цвет подписи-#FFFFFF
+*/
+:root {
+  --main-text-color: #757575;
+  --header-color: #212121;
+  --signature-color: #ffffff;
+  --animation-color: #2196f3;
+}
+
 body {
-  background: white;
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff;
+  color: var(--main-text-color);
+}
+/* логотип вначале сьраницы */
+.main-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: black;
+}
+/* часть логотипа "Web" */
+span {
+  color: var(--animation-color);
+}
+/* все ссылки */
+a {
+  text-decoration: none;
+  color: var(--header-color);
+}
+/* все списки */
+ul {
+  list-style-type: none;
+}
+/* стили для агаловков */
+.heading {
+  color: var(--header-color);
+}
+/* Логотип в конце страницы */
+.footer-logo {
+  color: var(--signature-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* основная навигация */
+.site-nav .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+/* основная навигация при наведении */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--animation-color);
+}
+
+.site-nav .link.current {
+  color: var(--animation-color);
+}
+
+/*  навигация по контактам */
+.contacts-nav .link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+/* навигация по контактам при наведении */
+.contacts-nav .link:hover,
+.contacts-nav .link:hover:focus {
+  color: var(--animation-color);
+}
+/* "кнопки" */
+
+.button {
+  color: var(--signature-color);
+  background: var(--animation-color);
+}
+/* главный заголовок сайта */
+.hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 42px;
+  color: var(--signature-color);
+  background: gray;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* абзацы в разделе что мы делаем */
+.what-doing-words {
+  color: var(--signature-color);
+  background: rgba(47, 48, 58, 0.8);
+  margin: 0px;
+  padding: 0px;
+}
+/* подвал сайта */
+
+.footer {
+  background: #2f303a;
+}
+/* обращения */
+.appeals {
+  color: var(--signature-color);
 }
