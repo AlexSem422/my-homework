@@ -69,6 +69,11 @@ ul {
 .site-nav .link:focus {
   color: var(--animation-color);
 }
+
+.site-nav .link.current {
+  color: var(--animation-color);
+}
+
 /*  навигация по контактам */
 .contacts-nav .link {
   font-family: Roboto;
