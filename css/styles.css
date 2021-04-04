@@ -8,12 +8,13 @@
   --header-color: #212121;
   --signature-color: #ffffff;
   --animation-color: #2196f3;
+  --main-bg-color-button: #f5f4fa;
 }
-
+/* Общие стили */
 body {
   margin: 0px;
   padding: 0px;
-  background: #ffffff;
+  background: var(--signature-color);
   color: var(--main-text-color);
 }
 /* логотип вначале сьраницы */
@@ -63,6 +64,7 @@ ul {
   line-height: 21px;
   letter-spacing: 0.02em;
   color: var(--header-color);
+  text-transform: uppercase;
 }
 /* основная навигация при наведении */
 .site-nav .link:hover,
@@ -95,6 +97,19 @@ ul {
   color: var(--signature-color);
   background: var(--animation-color);
 }
+
+/* подвал сайта */
+
+.footer {
+  background: #2f303a;
+}
+/* обращения */
+.appeals {
+  color: var(--signature-color);
+}
+
+/* Стили к index.html */
+
 /* главный заголовок сайта */
 .hero {
   font-family: Roboto;
@@ -114,12 +129,26 @@ ul {
   margin: 0px;
   padding: 0px;
 }
-/* подвал сайта */
 
-.footer {
-  background: #2f303a;
+/* Стили к portfolio.html */
+
+/* Цвет заливки - rgba(33, 150, 243, 0.9);
+   Цвет анимации - --animation-color: #2196f3;
+   Начальный цвет кнопки - #f5f4fa */
+
+/* кнопки */
+.button-portfolio {
+  background: var(--main-bg-color-button);
 }
-/* обращения */
-.appeals {
+/* кнопки при наведении */
+
+.button-portfolio:hover {
+  color: var(--signature-color);
+  background: var(--animation-color);
+}
+
+/* абзацы */
+.paragraph {
+  background: rgba(33, 150, 243, 0.9);
   color: var(--signature-color);
 }
