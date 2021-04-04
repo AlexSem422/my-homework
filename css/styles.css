@@ -16,21 +16,22 @@ body {
   padding: 0px;
   background: var(--signature-color);
   color: var(--main-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
 }
 /* логотип вначале сьраницы */
 .main-logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: black;
 }
 /* часть логотипа "Web" */
 span {
   color: var(--animation-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
 }
 /* все ссылки */
 a {
@@ -44,32 +45,26 @@ ul {
 /* стили для агаловков */
 .heading {
   color: var(--header-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 /*  */
 
 .main-heading {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--header-color);
 }
 
 .small-heading {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--header-color);
@@ -78,20 +73,17 @@ ul {
 /* Логотип в конце страницы */
 .footer-logo {
   color: var(--signature-color);
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: bold;
+  font-family: Raleway;
+  font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 /* основная навигация */
 .site-nav .link {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--header-color);
   text-transform: uppercase;
@@ -108,11 +100,9 @@ ul {
 
 /*  навигация по контактам */
 .contacts-nav .link {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
@@ -126,13 +116,12 @@ ul {
 .button {
   color: var(--signature-color);
   background: var(--animation-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.2;
   letter-spacing: 0.06em;
   text-align: center;
+  font-family: inherit;
 }
 
 /* подвал сайта */
@@ -143,35 +132,23 @@ ul {
 /* обращения */
 .join {
   color: var(--signature-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .address {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--signature-color);
 }
 
 .contact-link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -180,48 +157,36 @@ ul {
 
 /* главный заголовок сайта */
 .hero {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 42px;
-  color: var(--signature-color);
-  background: gray;
+  font-size: 26px;
+  line-height: 1.2;
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--signature-color);
+  background-color: gray;
 }
 /* абзацы в разделе что мы делаем */
 .what-doing-words {
   color: var(--signature-color);
   background: rgba(47, 48, 58, 0.8);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .advantages-paragraph {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 28px;
-  /* or 156% */
-
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
 .job {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
@@ -234,15 +199,12 @@ ul {
 /* кнопки */
 .button-portfolio {
   background: var(--main-bg-color-button);
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  font-family: inherit;
 }
 /* кнопки при наведении */
 
@@ -256,32 +218,24 @@ ul {
 .paragraph {
   background: rgba(33, 150, 243, 0.9);
   color: var(--signature-color);
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.2;
   /* or 156% */
 
   letter-spacing: 0.03em;
 }
 
 .heading-portfolio {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 
   letter-spacing: 0.06em;
 }
 
 .main-paragraph {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.2;
   /* identical to box height, or 187% */
 
   letter-spacing: 0.03em;
