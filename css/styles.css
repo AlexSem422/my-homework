@@ -30,6 +30,7 @@ body {
 /* часть логотипа "Web" */
 span {
   color: var(--animation-color);
+  font-family: 'Raleway', sans-serif;
 }
 /* все ссылки */
 a {
@@ -47,7 +48,7 @@ ul {
 /* Логотип в конце страницы */
 .footer-logo {
   color: var(--signature-color);
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -57,7 +58,7 @@ ul {
 }
 /* основная навигация */
 .site-nav .link {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -142,7 +143,8 @@ ul {
 }
 /* кнопки при наведении */
 
-.button-portfolio:hover {
+.button-portfolio:hover,
+.button-portfolio:focus {
   color: var(--signature-color);
   background: var(--animation-color);
 }
