@@ -12,15 +12,15 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="header-nav">
+    <header >
         <!-- навигация ""-->
-        <div class="nav-container">
+        <div class="container">
             <nav>
                 <a href="./index.html" class="main-logo"><span>Web</span> Studio</a>
 
                 <ul class="site-nav">
                     <li><a href="./index.html" class="link current link-studio">Студия</a></li>
-                    <li><a href="./portfolio.html" class="link link-portfolio">Портфолио</a></li>
+                    <li><a href="./portfolio.html" class="link  link-portfolio">Портфолио</a></li>
                     <li><a href="" class="link link-contacts">Контакты</a></li>
                 </ul>
             </nav>     
@@ -37,121 +37,147 @@
             <a href="" class="button">Заказать услугу </a>
         </section>
         <!-- секция "Наши преимущества"-->
-        <section>
-            <h2 class="main-heading">Наши преимущества</h2>
-            <ul>
-                <li><img src="./img-index/img-1.svg" alt="Внимание к деталям" width="65px">
-                    <h3 class="heading">Внимание к деталям</h3>
-                    <p class="advantages-paragraph">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li><img src="./img-index/img-2.svg" alt="Пунктуальность" width="67px">
-                    <h3 class="heading">Пунктуальность</h3>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li><img src="./img-index/img-3.svg" alt="Планирование" width="70px">
-                    <h3 class="heading">Планирование</h3>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li><img src="./img-index/img-4.svg" alt="Современные технологии" width="55px">
-                    <h3 class="heading">Современные технологии</h3>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+        <section class="section ">
+            <div class="container ">
+                <ul>
+                    <li>
+                        <div class="attention-to-detail advantages">
+                            <img src="./img-index/img-1.svg" alt="Внимание к деталям" width="65px">
+                        </div>
+                        <h3 class=" advantages-title">Внимание к деталям</h3>
+                        <p class="advantages-paragraph">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li>
+                        <div class="punctuality advantages">
+                            <img src="./img-index/img-2.svg" alt="Пунктуальность" width="67px">
+                        </div>
+                        <h3 class=" advantages-title">Пунктуальность</h3>
+                        <p class="advantages-paragraph">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li>
+                        <div class="planning advantages">
+                            <img src="./img-index/img-3.svg" alt="Планирование" width="70px">
+                        </div>
+                        <h3 class=" advantages-title">Планирование</h3>
+                        <p class="advantages-paragraph">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li>
+                        <div class="modern-technologies advantages">
+                            <img src="./img-index/img-4.svg" alt="Современные технологии" width="55px">
+                        </div>
+                        <h3 class=" advantages-title">Современные технологии</h3>
+                        <p class="advantages-paragraph">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!-- секция "Чем мы занимаемся" -->
-        <section>
-            <h2 class="main-heading">Чем мы занимаемся</h2>
-            <ul>
-            <li><img src="./img-index/img-what-doing-1.jpg" alt="Десктопные приложения" width="370px">
-                <p class="what-doing-words">Десктопные приложения</p>
-            </li>
-            <li><img src="./img-index/img-what-doing-2.jpg" alt="Мобильные приложения" width="370px">
-                <p class="what-doing-words">Мобильные приложения</p>
-            </li>
-            <li><img src="./img-index/img-what-doing-3.jpg" alt="Дизайнерские решения" width="370px">
-                <p class="what-doing-words">Дизайнерские решения</p>
-            </li>
-        </ul>
+        <section class="section ">
+            <div class="container">
+                <h2 class="what-doing-title ">Чем мы занимаемся</h2>
+                <ul>
+                <li><img src="./img-index/img-what-doing-1.jpg" alt="Десктопные приложения" width="370px">
+                        <p class="what-doing-words">Десктопные приложения</p>
+                </li>
+                <li><img src="./img-index/img-what-doing-2.jpg" alt="Мобильные приложения" width="370px">
+                    <p class="what-doing-words">Мобильные приложения</p>
+                </li>
+                <li><img src="./img-index/img-what-doing-3.jpg" alt="Дизайнерские решения" width="370px">
+                    <p class="what-doing-words">Дизайнерские решения</p>
+                </li>
+            </ul>
+        </div>
         </section>
         <!-- секция "Наша команда" -->
-        <section>
-            <h2 class="main-heading">Наша команда</h2>
-            <ul>
-                <li><img src="./img-index/img-team-1.jpg" alt="John Smith" width="270px">
-                    <h3 class="small-heading">John Smith</h3>
-                    <p class="job">Product Designer</p>
-                    <ul>
-                    <li><a href="" aria-label="instagram"></a></li>
-                    <li><a href="" aria-label="twitter"></a></li>
-                    <li><a href="" aria-label="facebook"></a></li>
-                    <li><a href="" aria-label="linkedin"></a></li>
-                    </ul>
-                </li>
-                <li><img src="./img-index/img-team-2.jpg" alt="Marta Stewart" width="270px">
-                    <h3 class="small-heading">Marta Stewart</h3>
-                    <p class="job">Frontend Developer</p>
-                    <ul>
+        <section class="section ">
+            <div class="container">
+                <h2 class="team-title">Наша команда</h2>
+                <ul>
+                    <li><img src="./img-index/img-team-1.jpg" alt="Николай Кучеренко" width="270px" class="team-img">
+                        <h3 class="name">Николай Кучеренко</h3>
+                        <p class="job">Product Designer</p>
+                        <ul>
                         <li><a href="" aria-label="instagram"></a></li>
                         <li><a href="" aria-label="twitter"></a></li>
                         <li><a href="" aria-label="facebook"></a></li>
                         <li><a href="" aria-label="linkedin"></a></li>
-                    </ul>
-                </li>
-                <li><img src="./img-index/img-team-3.jpg" alt="Robert Jakis" width="270px">
-                    <h3 class="small-heading">Robert Jakis</h3>
-                    <p class="job">Marketing</p>
-                    <ul>
-                    <li><a href="" aria-label="instagram"></a></li>
-                    <li><a href="" aria-label="twitter"></a></li>
-                    <li><a href="" aria-label="facebook"></a></li>
-                    <li><a href="" aria-label="linkedin"></a></li>
-                    </ul>
-                </li>
-                <li><img src="./img-index/img-team-4.jpg" alt="Martin Doe" width="270px">
-                    <h3 class="small-heading">Martin Doe</h3>
-                    <p class="job">UI Designer</p>
-                    <ul>
+                        </ul>
+                    </li>
+                    <li><img src="./img-index/img-team-2.jpg" alt="Ольга Иванова" width="270px" class="team-img">
+                        <h3 class="name">Ольга Иванова</h3>
+                        <p class="job">Frontend Developer</p>
+                        <ul>
+                            <li><a href="" aria-label="instagram"></a></li>
+                            <li><a href="" aria-label="twitter"></a></li>
+                            <li><a href="" aria-label="facebook"></a></li>
+                            <li><a href="" aria-label="linkedin"></a></li>
+                        </ul>
+                    </li>
+                    <li><img src="./img-index/img-team-3.jpg" alt="Андрей Шевченко" width="270px" class="team-img">
+                        <h3 class="name">Андрей Шевченко</h3>
+                        <p class="job">Marketing</p>
+                        <ul>
                         <li><a href="" aria-label="instagram"></a></li>
                         <li><a href="" aria-label="twitter"></a></li>
                         <li><a href="" aria-label="facebook"></a></li>
                         <li><a href="" aria-label="linkedin"></a></li>
-                    </ul>
-                </li>
-            </ul>
+                        </ul>
+                    </li>
+                    <li>    <img src="./img-index/img-team-4.jpg" alt="Иван Николаев" width="270px" class="team-img">
+                        <h3 class="name">Иван Николаев</h3>
+                        <p class="job">UI Designer</p>
+                        <ul>
+                            <li><a href="" aria-label="instagram"></a></li>
+                            <li><a href="" aria-label="twitter"></a></li>
+                            <li><a href="" aria-label="facebook"></a></li>
+                            <li><a href="" aria-label="linkedin"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!-- секция "Постоянные клиенты" -->
-        <section>
-            <h2 class="main-heading">Постоянные клиенты</h2>
-            <ul class="logo">
-                <li><a href=""><img src="./img-index/logo-4.svg" alt="logo" width="44px" class="logo-img"></a></li>
-                <li><a href=""><img src="./img-index/logo-1.svg" alt="logo" width="40px" class="logo-img"></a></li>
-                <li><a href=""><img src="./img-index/logo-2.svg" alt="logo" width="41px" class="logo-img"></a></li>
-                <li><a href=""><img src="./img-index/logo-3.svg" alt="logo" width="80px" class="logo-img"></a></li>
-                <li ><a href=""><img src="./img-index/logo-5.svg" alt="logo" width="59px" class="logo-img"></a></li>
-                <li><a href=""><img src="./img-index/logo-6.svg" alt="logo" width="89px" class="logo-img"></a></li>
-            </ul>
+        <section class="section ">
+            <div class="container">
+                <h2 class="always-clients-title">Постоянные клиенты</h2>
+                <ul class="logo">
+                    <li><a href=""><img src="./img-index/logo-4.svg" alt="YA & CO" width="44px" class="logo-ya-co"></a></li>
+                    <li><a href=""><img src="./img-index/logo-1.svg" alt="Company" width="40px" class="logo-company-second"></a></li>
+                    <li><a href=""><img src="./img-index/logo-2.svg" alt="Company" width="41px" class="logo-company-third"></a></li>
+                    <li><a href=""><img src="./img-index/logo-3.svg" alt="Foster Peters" width="80px" class="logo-foster"></a></li>
+                    <li><a href=""><img src="./img-index/logo-5.svg" alt="Brand" width="59px" class="logo-brand"></a></li>
+                    <li><a href=""><img src="./img-index/logo-6.svg" alt="tag-line" width="89px" class="logo-tag"></a></li>
+                </ul>
+            </div>
         </section>
     </main>
     <!-- подвал сайта -->
     <footer class="footer">
-        <a href="./index.html" class="footer-logo"><span >Web</span> Studio</a>
+        <div class="footer-container">
+            <a href="./index.html" class="footer-logo"><span>Web</span> Studio</a>
             <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
             <ul>
-                <li><p class="contact-link">info@example.com</p></li>
-                <li><p  class="contact-link">+38 099 111 11 11</p></li>
+                <li>
+                    <p class="contact-link-com">info@example.com</p>
+                </li>
+                <li>
+                    <p class="contact-link-tel">+38 099 111 11 11</p>
+                </li>
             </ul>
-        <p class="join">присоединяйтесь</p>
-        <ul >
-        <li><a href="" aria-label="instagram"></a></li>
-        <li><a href="" aria-label="twitter"></a></li>
-        <li><a href="" aria-label="facebook"></a></li>
-        <li><a href="" aria-label="linkedin"></a></li>
-        </ul>
-        <form action="handler.php">
-            <strong class="join">Подпишитесь на рассылку</strong>
-            <input type="text"  placeholder="E-mail" width="450px">
-        </form>
-        <input type="button" class="button" value="Подписаться">
+            <p class="join">присоединяйтесь</p>
+            <ul>
+                <li><a href="" aria-label="instagram"></a></li>
+                <li><a href="" aria-label="twitter"></a></li>
+                <li><a href="" aria-label="facebook"></a></li>
+                <li><a href="" aria-label="linkedin"></a></li>
+            </ul>
+            <!-- <form action="handler.php">
+                <strong class="join">Подпишитесь на рассылку</strong>
+                <input type="text" placeholder="E-mail" width="450px">
+            </form>
+            <input type="button" class="button" value="Подписаться"> -->
+        </div>
+        
     </footer>
 </body>
 </html>
