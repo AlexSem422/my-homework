@@ -64,6 +64,7 @@ p {
 
 /* логотип вначале сьраницы */
 .main-logo {
+  margin-right: 85px;
   min-width: 153px;
   color: black;
 
@@ -94,6 +95,18 @@ p {
 }
 
 /* основная навигация */
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0px;
+}
+
 .site-nav .link {
   color: var(--header-color);
 
@@ -115,6 +128,15 @@ p {
 }
 
 /*  навигация по контактам */
+.contacts-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts-nav .item + .item {
+  margin-left: 50px;
+}
+
 .contacts-nav .link {
   color: var(--main-text-color);
 
@@ -163,16 +185,35 @@ p {
   /* outline: 3px solid green; */
 }
 
+.main-nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .link-studio {
+  display: block;
   min-width: 49px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link-portfolio {
   min-width: 77px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link-contacts {
   min-width: 68px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link-email {
@@ -217,11 +258,21 @@ p {
   padding-right: 15px;
 }
 
-.advantages {
+.main-advantages {
+  display: flex;
+}
+
+.advantages-box {
   width: 270px;
-  background: var(--main-bg-color-button);
+  margin-right: 30px;
   border-radius: 4px;
   margin-bottom: 30px;
+
+  background: var(--main-bg-color-button);
+}
+
+.advantages-box:last-child {
+  margin-right: 0px;
 }
 
 .advantages-paragraph {
@@ -267,6 +318,21 @@ p {
   text-transform: uppercase;
 }
 
+/* what-doing */
+/*  Что мы делаем*/
+
+.what-doing-main {
+  display: flex;
+}
+
+.what-doing-box {
+  margin-right: 30px;
+}
+
+.what-doing-box:last-child {
+  margin-right: 0px;
+}
+
 .what-doing-title {
   min-width: 376px;
   margin-left: auto;
@@ -284,7 +350,6 @@ p {
   letter-spacing: 0.03em;
 }
 
-/*  Что мы делаем*/
 .what-doing-words {
   padding: 27px 82px 27px 83px;
   width: 370px;
@@ -302,7 +367,23 @@ p {
   text-transform: uppercase;
 }
 
+.what-doing-img {
+  display: block;
+}
+
 /* Наша команда */
+
+.team-main {
+  display: flex;
+}
+
+.team-box {
+  margin-right: 30px;
+}
+
+.team-box:last-child {
+  margin: 0px;
+}
 
 .team-title {
   min-width: 264px;
@@ -355,6 +436,18 @@ p {
 
 /* Клиенты */
 
+.logo-main {
+  display: flex;
+}
+
+.logo-box {
+  margin-right: 30px;
+}
+
+.logo-box:last-child {
+  margin-right: 0px;
+}
+
 .always-clients-title {
   min-width: 390px;
   margin-bottom: 50px;
@@ -377,6 +470,7 @@ p {
   height: 90px;
   border: 1px solid var(--logo-border-color);
   padding: 20px 63px 21px 63px;
+  border-radius: 4px;
 }
 
 .logo-company-second {
@@ -384,6 +478,7 @@ p {
   height: 90px;
   border: 1px solid var(--logo-border-color);
   padding: 19px 65px;
+  border-radius: 4px;
 }
 
 .logo-company-third {
@@ -391,6 +486,7 @@ p {
   height: 90px;
   border: 1px solid var(--logo-border-color);
   padding: 24px 64px 23px 65px;
+  border-radius: 4px;
 }
 
 .logo-foster {
@@ -398,6 +494,7 @@ p {
   height: 90px;
   border: 1px solid var(--logo-border-color);
   padding: 24px 45px;
+  border-radius: 4px;
 }
 
 .logo-brand {
@@ -405,13 +502,16 @@ p {
   height: 90px;
   border: 1px solid var(--logo-border-color);
   padding: 22px 55px 21px 56px;
+  border-radius: 4px;
 }
 
 .logo-tag {
   width: 170px;
   height: 90px;
-  border: 1px solid var(--logo-border-color);
+
   padding: 22px 41px 23px 41px;
+  border: 1px solid var(--logo-border-color);
+  border-radius: 4px;
 }
 /* footer */
 .footer-container {
@@ -501,15 +601,24 @@ p {
 /* кнопки */
 .main-button-portfolio {
   min-width: 73px;
-
+  padding: 6px 22px;
   background: var(--main-bg-color-button);
 
   font-weight: 500;
+
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   font-family: inherit;
+}
+
+.filter {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
 }
 
 .button-web-site {
@@ -533,6 +642,8 @@ p {
 }
 
 .button-portfolio {
+  margin-right: 8px;
+
   background: var(--main-bg-color-button);
 
   font-weight: 500;
@@ -551,6 +662,8 @@ p {
 }
 
 .portfolio-img {
+  width: 370px;
+  height: 294px;
   margin-bottom: 20px;
 }
 
@@ -573,6 +686,25 @@ p {
   line-height: 2;
 
   letter-spacing: 0.06em;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-block {
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.gallery-block:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.gallery-block:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
 }
 
 .main-paragraph {
