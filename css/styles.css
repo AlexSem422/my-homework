@@ -515,6 +515,8 @@ p {
 }
 /* footer */
 .footer-container {
+  display: flex;
+
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -523,6 +525,10 @@ p {
   margin-right: auto;
   /* delete */
   /* outline: 3px solid green; */
+}
+
+.footer-contacts-box {
+  margin-right: 69px;
 }
 
 /* Логотип в конце страницы */
@@ -553,6 +559,10 @@ p {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.last-li {
+  margin-bottom: 60px;
 }
 
 .contact-link-tel {
